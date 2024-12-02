@@ -69,19 +69,19 @@ Durante o desenvolvimento do projeto, algumas dificuldades foram encontradas e s
 3. **❌ Erro no Git (Identidade Não Configurada)**
    - **Descrição**: A identidade do usuário não estava configurada no Git, resultando em erros ao tentar fazer commits.
    - **Solução**: Configuramos o nome e o email do usuário com os comandos:
-
-   ```
-git config --global user.name "Beatriz Delgado"
+   git config --global user.name "Beatriz Delgado"
 git config --global user.email "beatrizdasvdelgado09@gmail.com"
-```
+
+
+
 
 4. **❌ Erro ao Configurar o Repositório no GitHub**
    - **Descrição**: O comando `git push` falhou devido à falta de commits iniciais ou problemas com o nome da branch.
    - **Solução**: Realizamos o primeiro commit corretamente e ajustamos a branch com o comando:
+   git branch -M main
 
-   ```
-git branch -M main
-```
+
+
 
 5. **❌ Interface Mostrando Valor Padrão 0.00**
    - **Descrição**: O valor do IMC era exibido como 0.00 mesmo após inserir os valores de peso e altura.
