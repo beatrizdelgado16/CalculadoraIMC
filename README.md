@@ -94,6 +94,12 @@ git branch -M main
 ### 🚀 Uso de Branches
 Foi criada a branch `feature/views` para desenvolver a interface gráfica e posteriormente integrada à branch principal (`main`) após revisão.
 
+### 🚀 Uso de Branches (Adicionais)
+
+feature/validation: Branch dedicada para implementar e corrigir validações de entrada.
+
+feature/final-adjustments: Branch para ajustes finais na interface e validação.
+
 ### ✏️ Commits
 Foram realizados commits frequentes com mensagens claras, como:
 - "Adicionando interface gráfica com validações básicas"
@@ -107,7 +113,13 @@ git checkout main
 git merge feature/views
 git push origin main
 ```
+### 🔀 Merges Realizados (Adicionais)
 
+feature/validation → main
+
+feature/final-adjustments → main
+
+O uso de branches e merges garantiu que funcionalidades fossem testadas separadamente antes de serem integradas ao projeto principal.
 ---
 
 ## 📌 Conclusão
